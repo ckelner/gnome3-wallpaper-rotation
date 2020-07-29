@@ -1,15 +1,5 @@
 'use strict';
 
-// Gnome 3 widescreen wallpaper rotation script
-// Pulls the wallpapers posted to r/WidescreenWallpaper and sets then as the wallpaper
-
-// To use - checkout this project to your machine
-// cd into the project and run `npm install`
-
-// Put following entry in your crontab to change wallpaper hourly:
-// 0 * * * * bash -c 'node /path/to/index.js'
-
-
 const axios = require('axios').default;
 const { spawnSync } = require( 'child_process' );
 const fs = require('fs');
