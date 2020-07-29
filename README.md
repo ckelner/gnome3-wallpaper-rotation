@@ -1,5 +1,7 @@
 # Gnome 3 widescreen wallpaper rotation script
 
+![Example Wallpaper](example.png)
+
 # Requirements
 * Node.js
 * Gnome 3
