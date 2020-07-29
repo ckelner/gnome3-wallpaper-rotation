@@ -1,0 +1,14 @@
+{
+  "name": "wallpaper",
+  "version": "1.0.0",
+  "description": "Fetches a wallpaper image from r/WidescreenWallpaper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ben Simpson",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
