@@ -24,5 +24,5 @@ Put following entry in your crontab to change wallpaper hourly:
 crontab -e
 
 // Inside crontab editor
-0 * * * * bash -c 'node /path/to/gnome3-wallpaper-rotation/index.js'
+0 * * * * bash -c 'cd /path/to/gnome3-wallpaper-rotation/ && npm start'
 ```
